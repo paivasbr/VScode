@@ -18,4 +18,5 @@ function send(){
         alert("!!All Dields are Mandatory!!")
     }
     alert("Hello" + nome.value + "! Your Email Has Been Sent Successfully!")
-}
+} 
+
