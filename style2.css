@@ -1,5 +1,5 @@
 /*
-Estilos da Página index2.html
+Estilos da Página index2.html e contato2.html
 */
 .center {
     text-align: center;
@@ -10,7 +10,11 @@ Estilos da Página index2.html
     justify-content: center;
     align-items: center;
 }
-
+.information {
+    align-items: left;
+    display: inline;
+    margin-right: 10%;
+}
 /*
-Estilos da Página index2.html
+Estilos da Página index2.html contato2.html
 */
