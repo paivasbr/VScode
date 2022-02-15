@@ -15,6 +15,31 @@ Estilos da Página index2.html e contato2.html
     display: inline;
     margin-right: 10%;
 }
+.menu li{
+    display: inline;
+    padding-inline-start: 15px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.menu li a:hover{
+    color: yellow;
+}
+.p-30{
+    padding: 30px;
+}
+.b-50{
+    border-radius: 50%;
+}
+.wh-300{
+    width: 300px;
+    height: 300px;
+}
+
+
+
 /*
 Estilos da Página index2.html contato2.html
 */
