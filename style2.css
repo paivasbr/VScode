@@ -9,6 +9,7 @@ Estilos da Página index2.html e contato2.html
     }
     .right {
         text-align: right;
+
     }
     .container{
         display: flex;
@@ -27,11 +28,11 @@ Estilos da Página index2.html e contato2.html
     }
     .menu li a{
         text-decoration: none;
-        color: black;
+        color: #e17055;
         font-size: 20px;
     }
     .menu li a:hover{
-        color: yellow;
+        color: rosybrown;
     }
     .p-30{
         padding: 30px;
@@ -49,6 +50,9 @@ Estilos da Página index2.html e contato2.html
     }
     .mb-50{
         margin-bottom: 50px;
+    }
+    .color{
+        color: #e17055;
     }
 
 
