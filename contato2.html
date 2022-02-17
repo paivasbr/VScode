@@ -27,16 +27,17 @@
                     <iframe src="https://giphy.com/embed/huz5OCebZbpP7JOiOl" width="120" height="120" frameBorder="0" class=""></iframe><p><a href="https://giphy.com/gifs/afrobeats-cuppy-dj-huz5OCebZbpP7JOiOl"></a></p>
                 </div>
                     <form>
-                        <label for="nome">Name</label> <br />
-                        <input type="text" id="nome" />
-                        <br />
+                        <label for="nome">Name</label> <br>
+                        <input type="text" id="nome" onkeyup="validaNome()">
+                        <div id='txtNome'></div>
                         <br />
                         <label for="email">E-mail:</label> <br />
-                        <input type="email" id="email" />
-                        <br />
+                        <input type="email" id="email" onkeyup="validaEmail()">
+                        <div id='txtEmail'></div>
                         <br />
                         <label for="assunto">Subject</label> <br />
-                        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                        <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                        <div id="txtAssunto"></div>
                         <br />
                         <label label for="senha">Password</label><br>
                         <input type="password" id="senha">
@@ -44,12 +45,12 @@
                         <label for="data">Date</label><br>
                         <input type="date" id="data">
                         <br />
-                        <button onclick="send"()>Send</button>
+                        <button onclick="enviar()">Send</button>
                     </form>
             </div>     
         </div>
                 <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14628.972229177452!2d-46.7242184!3d-23.5597125!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7fde0c9896bf0ec1!2sPra%C3%A7a%20do%20Rel%C3%B3gio%20da%20USP!5e0!3m2!1spt-BR!2sbr!4v1644853904268!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14628.972229177452!2d-46.7242184!3d-23.5597125!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7fde0c9896bf0ec1!2sPra%C3%A7a%20do%20Rel%C3%B3gio%20da%20USP!5e0!3m2!1spt-BR!2sbr!4v1644853904268!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe>
                     <p>R. do Anfiteatro, R. Cidade Universitária, S/N <br>
                     São Paulo - SP<br>
                     05508-060</p>
